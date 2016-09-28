@@ -4,9 +4,9 @@ title: Acerca
 permalink: /about/
 ---
 
-*Egresada de la Lic. en Desarrollo y Gestión Interculturales
-*Colaboradora en [Laboratorio para la ciudad](http://labcd.mx)
-*Asalariada en [Nemachtilo A.C.](http://nemachtilo.mx)
++Egresada de la Lic. en Desarrollo y Gestión Interculturales
++Colaboradora en [Laboratorio para la ciudad](http://labcd.mx)
++Asalariada en [Nemachtilo A.C.](http://nemachtilo.mx)
 
 ### More Information
 
