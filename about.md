@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Egresada de la Lic. en Desarrollo y Gestión Interculturales
-Colaboradora en [Laboratorio para la ciudad](http://labcd.mx)
+Colaboradora en [Laboratorio para la ciudad](http://labcd.mx).
 
 ### More Information
 
