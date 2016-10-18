@@ -10,10 +10,8 @@ Colaboradora en [Laboratorio para la ciudad](http://labcd.mx)
 
 Hacedora de mapas en [Nemachtilo A.C.](http://nemachtilo.mx)
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+### Contacto ;)
 
-[email@domain.com](mailto:email@domain.com)
+[smicmich@gmail.com](mailto:smicmich@gmail.com)
