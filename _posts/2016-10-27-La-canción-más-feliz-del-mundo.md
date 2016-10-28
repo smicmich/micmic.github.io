@@ -9,4 +9,4 @@ Así que aquí tienen, la versión de una hora para completar su dosis diaria de
 
 {% include youtubePlayer.html id="cCKONHUigVk" %}
 
-![Hemmet]({{ site.baseurl }}/images/legoo.png "Hemmet")
+![Hemmet]({{ site.baseurl }}/images/lego.png "Hemmet")
