@@ -13,8 +13,8 @@ Leaflet es una librería de JavaScript para crear mapas interactivos ¿? Leaflet
 
 Algunas de las cosas que necesitaremos:
 
-*Conocer un poco de HTML, CSS Y JavaScript.
-*Ganas de fallar varias veces hasta conseguir lo que quieres.
+- Conocer un poco de HTML, CSS Y JavaScript.
+- Ganas de fallar varias veces hasta conseguir lo que quieres.
 
 ### Iniciar un archivo HTML con cabeza y cuerpo
 
@@ -31,4 +31,3 @@ Algunas de las cosas que necesitaremos:
 	</body>
 </html>
 ```
-###
