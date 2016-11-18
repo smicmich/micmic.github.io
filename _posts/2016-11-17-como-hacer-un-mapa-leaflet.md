@@ -57,7 +57,7 @@ Si no quieren tomar leaflet de internet, bastará con que descarguen los archivo
 
 ### Indicar el estilo del mapa (ponerlo guapo)
 
-Esta parte servirá sobre todo para indicar el tamaño de nuestro mapa y debe ir dentro de las etiquetas de estilo 
+Esta parte servirá sobre todo para indicar el tamaño de nuestro mapa y debe ir dentro de las etiquetas de estilo '<style></style>'
 
 ```html
 <!DOCTYPE html>
