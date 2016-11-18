@@ -33,6 +33,7 @@ Algunas de las cosas que necesitaremos:
 	</body>
 </html>
 ```
+
 ### Rellenar el documento
 
 Una vez comenzado el archivo html, lo primero que debemos hacer es incorporar Leaflet al mapa en la cabeza del documento. Algo así:
@@ -56,7 +57,7 @@ Si no quieren tomar leaflet de internet, bastará con que descarguen los archivo
 
 ### Indicar el estilo del mapa (ponerlo guapo)
 
-Esta parte servirá sobre todo para indicar el tamaño de nuestro mapa y debe ir dentro de las etiquetas <style></style>
+Esta parte servirá sobre todo para indicar el tamaño de nuestro mapa y debe ir dentro de las etiquetas de estilo 
 
 ```html
 <!DOCTYPE html>
