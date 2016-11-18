@@ -31,7 +31,7 @@ Algunas de las cosas que necesitaremos:
 	<body>
 		<div id = 'map'>
 		</div>
-	</body>
+	</body> 
 </html>
 ```
 
