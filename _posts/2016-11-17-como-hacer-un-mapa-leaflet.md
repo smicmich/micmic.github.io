@@ -18,7 +18,7 @@ Algunas de las cosas que necesitaremos:
 - Conocer un poco de HTML, CSS Y JavaScript.
 - Ganas de fallar varias veces hasta conseguir lo que quieres.
 
-## Iniciar un archivo HTML con cabeza y cuerpo
+## Iniciar un archivo HTML con cabeza y cuerpo y un bloque llamado "map"
 
 ```html
 <!DOCTYPE html>
