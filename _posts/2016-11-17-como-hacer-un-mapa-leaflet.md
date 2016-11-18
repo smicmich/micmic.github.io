@@ -9,6 +9,8 @@ Leaflet es una librería de JavaScript para crear mapas interactivos ¿? Leaflet
 
 ¿Y qué es lo que hace todavía mejor a Leaflet? Que es fácil de usar aunque no tengas grandes conocimientos de programación.
 
+**NOTA:** Si no quieren leer todo el post bastará con que copien y peguen y modifiquen la última caja de código del post ;)
+
 ## Comencemos
 
 Algunas de las cosas que necesitaremos:
