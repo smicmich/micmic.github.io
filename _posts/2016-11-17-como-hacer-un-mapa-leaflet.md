@@ -80,3 +80,7 @@ Esta parte servirá sobre todo para indicar el tamaño de nuestro mapa y debe ir
 	</body>
 </html>
 ```
+
+### El cuerpo
+
+Dentro de `body` y después de la sección `map` pondremos la información que queremos representar en el mapa ya sea en forma de marcadores, polígonos o líneas.
