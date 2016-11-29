@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Cómo hacer un mapa en leaflet
+title: Cómo hacer un mapa sencillo en leaflet
 ---
 
 ## Antes que nada... ¿qué es Leaflet?
