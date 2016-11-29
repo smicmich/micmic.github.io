@@ -14,4 +14,6 @@ Twitter me hace sentir ganadora porque me ha regalado cosillas como:
 
 Cosas que facebook nunca me ha dado :(
 
-Fin del post terapéutico.
+Necesitaba expresar mi amor por Twitter de alguna forma.
+
+FIN
