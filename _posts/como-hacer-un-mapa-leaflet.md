@@ -19,8 +19,6 @@ Algunas de las cosas que necesitaremos:
 - Conocer un poco de HTML, CSS Y JavaScript.
 - Ganas de fallar varias veces hasta conseguir lo que quieres.
 
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
-
 ## Iniciar un archivo HTML con cabeza y cuerpo y un bloque llamado "map"
 
 ```html
