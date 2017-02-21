@@ -14,16 +14,26 @@ Leaflet es una librería de JavaScript para crear mapas interactivos ¿? Leaflet
 
 ## Comencemos
 
+### Contenidos
+
+- Estructura de un mapa [#estructura]
+- Código [#iniciar-un-archivo-html]
+
+
 Algunas de las cosas que necesitaremos:
 
 - Conocer un poco de HTML, CSS Y JavaScript.
 - Ganas de fallar varias veces hasta conseguir lo que quieres.
 
+## Estructura
+
 ![Estructura de visualizacion de un mapa](/images/estructura-visualizacion.jpg)
 
 ![Estructura del código de un mapa](/images/estructura-codigo.jpg)
 
-## Iniciar un archivo HTML con cabeza y cuerpo y un bloque llamado "map"
+## Iniciar un archivo HTML 
+
+Iniciar un archivo HTML con cabeza y cuerpo y un bloque llamado "map"
 
 ```html
 <!DOCTYPE html>
