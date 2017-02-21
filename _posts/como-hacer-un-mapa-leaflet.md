@@ -19,7 +19,9 @@ Algunas de las cosas que necesitaremos:
 - Conocer un poco de HTML, CSS Y JavaScript.
 - Ganas de fallar varias veces hasta conseguir lo que quieres.
 
-![My helpful screenshot](/images/estructura-visualizacion.jpg)
+![Estructura de visualizacion de un mapa](/images/estructura-visualizacion.jpg)
+
+![Estructura del código de un mapa](/images/estructura-codigo.jpg)
 
 ## Iniciar un archivo HTML con cabeza y cuerpo y un bloque llamado "map"
 
