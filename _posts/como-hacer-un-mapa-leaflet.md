@@ -19,7 +19,7 @@ Algunas de las cosas que necesitaremos:
 - Conocer un poco de HTML, CSS Y JavaScript.
 - Ganas de fallar varias veces hasta conseguir lo que quieres.
 
-![Estructura de visualizacion de un mapa](/images/estructura-visualizacion.jpg)
+![Estructura de visualizacion de un mapa](/images/estructura-visualizacion.jpg =200x100)
 
 ![Estructura del código de un mapa](/images/estructura-codigo.jpg)
 
