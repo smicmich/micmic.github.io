@@ -6,9 +6,9 @@ title: Cómo hacer un mapa sencillo en leaflet
 
 ## Antes que nada... ¿qué es Leaflet?
 
-Leaflet es una librería de JavaScript para crear mapas interactivos ¿? Leaflet es la herramienta que hace que puedas agregarle distintas funcionalidades a un mapa como marcadores, polígonos, capas, clusters para agrupar la información, geolocalización, etc.
+Leaflet es una librería de JavaScript para crear mapas interactivos ¿? Leaflet es la herramienta que hace que puedas agregar distintas funcionalidades a un mapa: marcadores, polígonos, capas, clusters para agrupar la información, geolocalización, etc.
 
-¿Y qué es lo que hace todavía mejor a Leaflet? Que es fácil de usar aunque no tengas grandes conocimientos de programación. Se los digo yo que estudié gestión intercultural (jahaa) y logré hacer [este mapa](http://nemachtilo.mx) con un poquito de esfuerzo.
+¿Y qué es lo que hace todavía mejor a Leaflet? Que es fácil de usar aunque no tengas grandes conocimientos de programación. Se los digo yo que estudié gestión intercultural (jahaa) y logré hacer [este mapa](http://nemachtilo.mx/mapainteractivo.php) con un poquito de esfuerzo.
 
 **NOTA:** Si no quieren leer todo el post bastará con que copien, peguen y modifiquen la última caja de código del post ;)
 
