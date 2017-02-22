@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mi tarea de chino (Festival de las linternas)
+title: Mi tarea de chino (Festival de las Linternas)
 ---
 
 Presentando mi horrible gramática china y la historia del festival de las linternas.
