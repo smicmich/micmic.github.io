@@ -10,30 +10,23 @@ Leaflet es una librería de JavaScript para crear mapas interactivos ¿? Leaflet
 
 ¿Y qué es lo que hace todavía mejor a Leaflet? Que es fácil de usar aunque no tengas grandes conocimientos de programación. Se los digo yo que estudié gestión intercultural (jahaa) y logré hacer [este mapa](http://nemachtilo.mx/mapainteractivo.php) con un poquito de esfuerzo.
 
-**NOTA:** Si no quieren leer todo el post bastará con que copien, peguen y modifiquen la última caja de código del post ;)
-
 ## Comencemos
-
-### Contenidos
-
-- [Estructura de un mapa] (#estructura)
-- [Código] (#iniciar-un-archivo-html)
-
 
 Algunas de las cosas que necesitaremos:
 
 - Conocer un poco de HTML, CSS Y JavaScript.
 - Ganas de fallar varias veces hasta conseguir lo que quieres.
 
-## Estructura
+Para aclarar un poco las cosas, hay que decir que cada uno de los lenguajes de programación le da a los mapas diferentes funcionalidades
 
 ![Estructura de visualizacion de un mapa](/images/estructura-visualizacion.jpg)
 
 ![Estructura del código de un mapa](/images/estructura-codigo.jpg)
 
+
 ## Iniciar un archivo HTML 
 
-Iniciar un archivo HTML con cabeza y cuerpo y un bloque llamado "map"
+Para comenzar a hacer un mapa, debemos crear un archivo HTML con ```body```, ```head``` y un bloque llamado ```map```.
 
 ```html
 <!DOCTYPE html>
