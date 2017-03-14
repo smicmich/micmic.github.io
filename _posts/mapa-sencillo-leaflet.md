@@ -62,7 +62,7 @@ Si no quieren tomar leaflet de internet, bastará con que descarguen los archivo
 
 Esta parte servirá para indicar el tamaño que tendrá nuestro mapa y debe ir dentro de las etiquetas de estilo `<style>``</style>`. Además de eso, dentro de `body` y después de la sección `map` tendremos que agregar la base del mapa. La elección de la base tiene que ver con el tipo de información que se debe presentar.  Si la orografía e hidrografía del terreno no son de las cosas más importantes en nuestro mapa, podríamos escoger una base simple con pocos colores, pero si como parte de la información que queremos presentar, se deben considerar los asentamientos humanos y las zonas en las que todavía la mano del hombre no ha causado muchos daños, tal vez conviene utilizar un mapa satelital.
 
-Un buen sitio para buscar mapas base es [este]. (https://leaflet-extras.github.io/leaflet-providers/preview/) Para agregar la base que se adapte mejor a nuestras necesidades, debemos crear añadir la etiqueta de ```script``` dentro de ```body``` y agregar la variable ```map```.
+Un buen sitio para buscar mapas base es [este](https://leaflet-extras.github.io/leaflet-providers/preview/) Para agregar la base que se adapte mejor a nuestras necesidades, debemos crear añadir la etiqueta de ```script``` dentro de ```body``` y agregar la variable ```map```.
 
 ```html
 <html>
@@ -92,6 +92,8 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 </body>
 </html>
 ```
+
+<a class="standalone" href="http://bl.ocks.org/micmicto/3d839eca390c719fd05cf66a3b65f7ef" target="_blank"></a>
 
 Dentro de la variable ```map``` incluiremos las coordenadas del centro del mapa y el nivel de zoom al que se mostrará cuando se inicie. También añadiremos el link de la base que hayamos elegido y los créditos (No al plagio, dar crédito es importante).
 
