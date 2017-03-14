@@ -93,8 +93,6 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 </html>
 ```
 
-<a class="standalone" href="http://bl.ocks.org/micmicto/3d839eca390c719fd05cf66a3b65f7ef" target="_blank"></a>
-
 Dentro de la variable ```map``` incluiremos las coordenadas del centro del mapa y el nivel de zoom al que se mostrará cuando se inicie. También añadiremos el link de la base que hayamos elegido y los créditos (No al plagio, dar crédito es importante).
 
 ### Insertar marcadores
