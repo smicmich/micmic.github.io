@@ -17,19 +17,11 @@ Algunas de las cosas que necesitaremos:
 - Conocer un poco de HTML, CSS Y JavaScript.
 - Ganas de fallar varias veces hasta conseguir lo que quieres.
 
-Para aclarar un poco las cosas, hay que decir que cada uno de los lenguajes de programación le da a los mapas diferentes funcionalidades
-
-![Estructura de visualizacion de un mapa](/images/estructura-visualizacion.jpg)
-
-![Estructura del código de un mapa](/images/estructura-codigo.jpg)
-
-
 ## Iniciar un archivo HTML 
 
 Para comenzar a hacer un mapa, debemos crear un archivo HTML con ```title``` ```head```, ```body```, una sección para definir el estilo ```style``` y un bloque llamado ```map```.
 
 ```html
-<!DOCTYPE html>
 <html>
 <head>	
 	<title>
@@ -73,7 +65,6 @@ Esta parte servirá para indicar el tamaño que tendrá nuestro mapa y debe ir d
 Un buen sitio para buscar mapas base es [este]. (https://leaflet-extras.github.io/leaflet-providers/preview/) Para agregar la base que se adapte mejor a nuestras necesidades, debemos crear añadir la etiqueta de ```script``` dentro de ```body``` y agregar la variable ```map```.
 
 ```html
-<!DOCTYPE html>
 <html>
 <head>
   <title>Map-A!</title>
@@ -90,7 +81,7 @@ Un buen sitio para buscar mapas base es [este]. (https://leaflet-extras.github.i
  
   <script>
 
-var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 10);
+var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
  
   L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
     {
@@ -101,4 +92,42 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 10);
 </body>
 </html>
 ```
+
 Dentro de la variable ```map``` incluiremos las coordenadas del centro del mapa y el nivel de zoom al que se mostrará cuando se inicie. También añadiremos el link de la base que hayamos elegido y los créditos (No al plagio, dar crédito es importante).
+
+### Insertar marcadores
+
+Agregar marcadores es una buena manera de indicar la ubicación de diferentes lugares. Para ello solamente basta con agregar ```L.marker``` dentro del ```script```, agregar las coordenadas del lugar que queremos indicar y el texto que se mostrará cuando el usuario haga click sobre el marcador.
+
+```html
+<html>
+<head>
+  <title>Map-A!</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <style>
+    #map{ height: 100% }
+  </style>
+</head>
+<body>
+ 
+  <div id="map"></div>
+ 
+  <script>
+
+var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
+ 
+  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    
+    L.marker([19.434882,-99.142477]).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+ 
+  </script>
+</body>
+</html>
+```
+
+Aunque por ahora parece un mapa simple, existen muchos [plugins](http://leafletjs.com/plugins.html) con los que se pueden añadir más funcionalidades.
