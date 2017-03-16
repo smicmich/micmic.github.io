@@ -130,6 +130,7 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 </body>
 </html>
 ```
+
 <iframe src="http://bl.ocks.org/smicmich/0a48b64f6bbd0273f1184e19a2374116" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 Aunque por ahora parece un mapa simple, existen muchos [plugins](http://leafletjs.com/plugins.html) con los que se pueden añadir más funcionalidades.
