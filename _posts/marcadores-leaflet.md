@@ -37,3 +37,4 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 </html>
 ```
 ## Agregar las variables de los marcadores
+  
