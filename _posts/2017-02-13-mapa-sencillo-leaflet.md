@@ -133,7 +133,3 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 Pueden ver el mapa terminado <a href="http://bl.ocks.org/smicmich/0a48b64f6bbd0273f1184e19a2374116">aquí</a>.
 
 Aunque por ahora parece un mapa simple, existen muchos [plugins](http://leafletjs.com/plugins.html) con los que se pueden añadir más funcionalidades.
-
-
-<iframe width="653" height="339" seamless frameborder="0" scrolling="no" src="http://bl.ocks.org/micmicto/b3239d412b996d49f51574e5df5f7ff4"></iframe>
-
