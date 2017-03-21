@@ -18,4 +18,4 @@ Necesitaba expresar mi amor por Twitter de alguna forma.
 
 FIN
 
-{% include youtubePlayer.html id="FkXdPTA5URk&lis"%}
+{% include youtubePlayer.html id="FkXdPTA5URk" %}
