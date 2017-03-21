@@ -134,6 +134,5 @@ Pueden ver el mapa terminado <a href="http://bl.ocks.org/smicmich/0a48b64f6bbd02
 
 Aunque por ahora parece un mapa simple, existen muchos [plugins](http://leafletjs.com/plugins.html) con los que se pueden añadir más funcionalidades.
 
-<iframe width="653" height="339" seamless frameborder="0" scrolling="no" src="https://micmicto.github.io/MapEvolution/10.html#5/23.886/-99.998"></iframe>
-
+<center><iframe width="653" height="339" seamless frameborder="0" scrolling="no" src="http://bl.ocks.org/smicmich/raw/0a48b64f6bbd0273f1184e19a2374116/"></iframe></center>
 
