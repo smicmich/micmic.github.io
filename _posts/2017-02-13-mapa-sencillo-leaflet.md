@@ -137,11 +137,9 @@ Aunque por ahora parece un mapa simple, existen muchos [plugins](http://leafletj
 <style type='text/css'> #map { width: 720px; height:250px; } </style>
 <div id= "map"></div>
 <script> var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
- 
-  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+   L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
     {
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
-
 L.marker([19.434882,-99.142477]).bindPopup("Bellas Artes, Bellas Artes!").addTo(map); 
 </script>
