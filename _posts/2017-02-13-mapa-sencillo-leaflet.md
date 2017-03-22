@@ -134,5 +134,12 @@ Pueden ver el mapa terminado <a href="http://bl.ocks.org/smicmich/0a48b64f6bbd02
 
 Aunque por ahora parece un mapa simple, existen muchos [plugins](http://leafletjs.com/plugins.html) con los que se pueden añadir más funcionalidades.
 
-<iframe width="653" height="339" seamless frameborder="0" scrolling="no" src="http://bl.ocks.org/smicmich/raw/0a48b64f6bbd0273f1184e19a2374116/"></iframe>
+<style type='text/css'> #map { width: 720px; height:250px; } </style>
+<script> var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
+ 
+  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
 
+L.marker([19.434882,-99.142477]).bindPopup("Bellas Artes, Bellas Artes!").addTo(map); </script>
