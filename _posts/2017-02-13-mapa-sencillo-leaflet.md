@@ -135,6 +135,7 @@ Pueden ver el mapa terminado <a href="http://bl.ocks.org/smicmich/0a48b64f6bbd02
 Aunque por ahora parece un mapa simple, existen muchos [plugins](http://leafletjs.com/plugins.html) con los que se pueden añadir más funcionalidades.
 
 <style type='text/css'> #map { width: 720px; height:250px; } </style>
+<div id= "map"></div>
 <script> var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
  
   L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -142,4 +143,5 @@ Aunque por ahora parece un mapa simple, existen muchos [plugins](http://leafletj
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
-L.marker([19.434882,-99.142477]).bindPopup("Bellas Artes, Bellas Artes!").addTo(map); </script>
+L.marker([19.434882,-99.142477]).bindPopup("Bellas Artes, Bellas Artes!").addTo(map); 
+</script>
