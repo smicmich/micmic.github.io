@@ -134,4 +134,4 @@ Pueden ver el mapa terminado <a href="http://bl.ocks.org/smicmich/0a48b64f6bbd02
 
 Aunque por ahora parece un mapa simple, existen muchos [plugins](http://leafletjs.com/plugins.html) con los que se pueden añadir más funcionalidades.
 
-<iframe width="560" height="315" src="https://smicmich.github.io/themaps/sencillo.html" frameborder="0" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://smicmich.github.io/themaps/sencillo.html" frameborder="0" allowfullscreen></iframe></center>
