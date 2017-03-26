@@ -66,7 +66,7 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
     
     var supermapaIcon = L.icon({
     iconUrl: 'icons/pokeball.png',
-    iconSize: [35,35],
+    iconSize: [30,30],
 });
     
     L.marker([19.434882,-99.142477]).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
@@ -104,7 +104,7 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
     
     var supermapaIcon = L.icon({
     iconUrl: 'icons/pokeball.png',
-    iconSize: [35,35],
+    iconSize: [30,30],
 });
     
     L.marker([19.434882,-99.142477], {icon:supermapaIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
