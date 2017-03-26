@@ -114,3 +114,12 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 </html>
 ```
 
+<center>
+
+<iframe width="560" height="315" src="https://smicmich.github.io/themaps/marcadores.html" frameborder="0" allowfullscreen></iframe>
+
+</center>
+
+Y listo! Si queremos añadir más marcadores, deberemos añadir más variables, una por cada ícono.
+
+Y listo!
