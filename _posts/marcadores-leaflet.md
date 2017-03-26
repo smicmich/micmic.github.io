@@ -75,3 +75,42 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 </body>
 </html>
 ```
+
+Ahora, después de las coordenadas, agregaremos la variable correspondiente al ícono: ```icon: supermapaIcon```.
+
+```html
+<html>
+<head>
+  <title>Map-A!</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <style>
+    #map{ height: 100% }
+  </style>
+</head>
+<body>
+ 
+  <div id="map"></div>
+ 
+  <script>
+
+var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
+ 
+  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    {
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    
+    var supermapaIcon = L.icon({
+    iconUrl: 'icons/pokeball.png',
+    iconSize: [90,90],
+});
+    
+    L.marker([19.434882,-99.142477], {icon:supermapaIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+ 
+  </script>
+</body>
+</html>
+```
+
