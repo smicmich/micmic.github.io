@@ -122,7 +122,7 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 
 Y listo! Si queremos añadir diferentes marcadores, deberemos hacer una variable general que contenga las propiedades de cada marcador (tamaño del ícono), y otras para cada una de las imágenes que queramos usar como marcadores.
 
-```
+```html
 
 var supermapaIcon =L.Icon.extend({
 	options:{
@@ -147,3 +147,5 @@ L.marker([19.427355, -99.143380], {icon:jigglyIcon}).addTo(map).bindPopup('Un Pu
   L.marker([19.433304, -99.132651], {icon:pikachuIcon}).addTo(map).bindPopup('Pikachu en el mero centro');
   
 ```
+
+<iframe width="560" height="315" src="https://smicmich.github.io/themaps/marcadoresm.html" frameborder="0" allowfullscreen></iframe>
