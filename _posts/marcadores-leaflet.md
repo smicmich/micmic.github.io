@@ -122,4 +122,29 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 
 Y listo! Si queremos añadir más marcadores, deberemos añadir más variables, una por cada ícono y una que contenga las propiedades (tamaño) de cada marcador.
 
+```
+
+var NemachIcons =L.Icon.extend({
+			options:{
+				iconSize:		[50,55],
+				iconAnchor:		[25,27],
+				popupAnchor:	[0,-20]
+			}
+		});
+		var tiloIcon = new NemachIcons({iconUrl:'icons/marknemachtilo003.png'}),
+			puebloIcon = new NemachIcons({iconUrl:'icons/pueblomagico.png'}),
+			museoIcon = new NemachIcons({iconUrl:'icons/museo.png'}),
+			casascIcon = new NemachIcons({iconUrl:'icons/casasdecultura.png'}),
+			hospitalIcon= new NemachIcons({iconUrl:'icons/hospital.png'})
+			restosIcon = new NemachIcons({iconUrl: 'icons/013.png'}),
+			lineaIcon= new NemachIcons({iconUrl:'icons/rutas.png'})
+			naturalesIcon = new NemachIcons({iconUrl:'icons/anp.png'});
+	
+		L.icon =function (options) {
+			return new L.Icon(options);
+		};
+		
+
+```
+
 
