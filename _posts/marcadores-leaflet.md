@@ -120,31 +120,30 @@ var map = L.map('map').setView([19.434674586884228, -99.13136601448059], 14);
 
 </center>
 
-Y listo! Si queremos añadir más marcadores, deberemos añadir más variables, una por cada ícono y una que contenga las propiedades (tamaño) de cada marcador.
+Y listo! Si queremos añadir diferentes marcadores, deberemos hacer una variable general que contenga las propiedades de cada marcador (tamaño del ícono), y otras para cada una de las imágenes que queramos usar como marcadores.
 
 ```
 
-var NemachIcons =L.Icon.extend({
-			options:{
-				iconSize:		[50,55],
-				iconAnchor:		[25,27],
-				popupAnchor:	[0,-20]
+var supermapaIcon =L.Icon.extend({
+	options:{
+	iconSize:		[50,55],
+	iconAnchor:		[25,27],
+	popupAnchor:	[0,-20]
 			}
-		});
-		var tiloIcon = new NemachIcons({iconUrl:'icons/marknemachtilo003.png'}),
-			puebloIcon = new NemachIcons({iconUrl:'icons/pueblomagico.png'}),
-			museoIcon = new NemachIcons({iconUrl:'icons/museo.png'}),
-			casascIcon = new NemachIcons({iconUrl:'icons/casasdecultura.png'}),
-			hospitalIcon= new NemachIcons({iconUrl:'icons/hospital.png'})
-			restosIcon = new NemachIcons({iconUrl: 'icons/013.png'}),
-			lineaIcon= new NemachIcons({iconUrl:'icons/rutas.png'})
-			naturalesIcon = new NemachIcons({iconUrl:'icons/anp.png'});
-	
-		L.icon =function (options) {
-			return new L.Icon(options);
-		};
-		
+});
 
+var pokebolaIcon = new supermapaIcon({iconUrl:'icons/pokeball.png'}),
+	charmanderIcon = new supermapaIcon({iconUrl:'icons/charmander.png'}),
+	jigglyIcon = new supermapaIcon({iconUrl:'icons/jigglypuff.png'}),
+	pikachuIcon = new supermapaIcon({iconUrl:'icons/pikachu.png'});
+
+L.icon =function (options) {
+	return new L.Icon(options);
+};
+
+  L.marker([19.434882,-99.142477], {icon:pokebolaIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+  L.marker([19.434982,-99.142477], {icon:charmanderIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+  L.marker([19.435082,-99.142477], {icon:jigglycon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+  L.marker([19.435182,-99.142477], {icon:pikachuIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+  
 ```
-
-
