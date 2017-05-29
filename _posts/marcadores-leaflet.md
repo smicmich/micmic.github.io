@@ -141,9 +141,9 @@ L.icon =function (options) {
 	return new L.Icon(options);
 };
 
-  L.marker([19.434882,-99.442477], {icon:pokebolaIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
-  L.marker([19.334982,-99.342477], {icon:charmanderIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
-  L.marker([19.235082,-99.242477], {icon:jigglycon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
-  L.marker([19.135182,-99.142477], {icon:pikachuIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+  L.marker([19.434882,-99.142477], {icon:pokebolaIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
+  L.marker([19.440305, -99.132909], {icon:charmanderIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
+  L.marker([19.431119, -99.137372], {icon:jigglyIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
+  L.marker([19.437553, -99.135183], {icon:pikachuIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
   
 ```
