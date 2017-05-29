@@ -147,5 +147,8 @@ L.marker([19.427355, -99.143380], {icon:jigglyIcon}).addTo(map).bindPopup('Un Pu
   L.marker([19.433304, -99.132651], {icon:pikachuIcon}).addTo(map).bindPopup('Pikachu en el mero centro');
   
 ```
+<center>
 
 <iframe width="560" height="315" src="https://smicmich.github.io/themaps/marcadoresm.html" frameborder="0" allowfullscreen></iframe>
+
+</center>
