@@ -141,9 +141,9 @@ L.icon =function (options) {
 	return new L.Icon(options);
 };
 
-  L.marker([19.434882,-99.142477], {icon:pokebolaIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
-  L.marker([19.440305, -99.132909], {icon:charmanderIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
-  L.marker([19.431119, -99.137372], {icon:jigglyIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
-  L.marker([19.437553, -99.135183], {icon:pikachuIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+  L.marker([19.434882,-99.142477], {icon:pokebolaIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+  L.marker([19.440305, -99.132909], {icon:charmanderIcon}).addTo(map).bindPopup('Un charmander en la lagunilla');
+L.marker([19.427355, -99.143380], {icon:jigglyIcon}).addTo(map).bindPopup('Un Puff en Salto del Agua');
+  L.marker([19.433304, -99.132651], {icon:pikachuIcon}).addTo(map).bindPopup('Pikachu en el mero centro');
   
 ```
