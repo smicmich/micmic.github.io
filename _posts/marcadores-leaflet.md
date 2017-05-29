@@ -126,8 +126,8 @@ Y listo! Si queremos añadir diferentes marcadores, deberemos hacer una variable
 
 var supermapaIcon =L.Icon.extend({
 	options:{
-	iconSize:		[50,55],
-	iconAnchor:		[25,27],
+	iconSize:		[30,30],
+	iconAnchor:		[30,30],
 	popupAnchor:	[0,-20]
 			}
 });
@@ -141,9 +141,9 @@ L.icon =function (options) {
 	return new L.Icon(options);
 };
 
-  L.marker([19.434882,-99.142477], {icon:pokebolaIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
-  L.marker([19.434982,-99.142477], {icon:charmanderIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
-  L.marker([19.435082,-99.142477], {icon:jigglycon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
-  L.marker([19.435182,-99.142477], {icon:pikachuIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
+  L.marker([19.434882,-99.142477], {icon:pokebolaIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
+  L.marker([19.334982,-99.142477], {icon:charmanderIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
+  L.marker([19.235082,-99.142477], {icon:jigglycon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!'),
+  L.marker([19.135182,-99.142477], {icon:pikachuIcon}).addTo(map).bindPopup('Bellas Artes, Bellas Artes!');
   
 ```
